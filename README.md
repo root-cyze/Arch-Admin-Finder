@@ -21,7 +21,7 @@
 1. Clone this repository:
 
 ```
-git clone https://github.com/archescyber/arch-admin-finder.git
+git clone https://github.com/archescyber/Arch-Admin-Finder
 ```
 
 ```
