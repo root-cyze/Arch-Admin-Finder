@@ -2,13 +2,13 @@
 from threading import Lock, Thread
 from requests import get
 from requests.exceptions import ConnectionError as hata
-from requests.exceptions import MissingSchema as eksik_schema     
+from requests.exceptions import MissingSchema as eksik_schema
 from queue import Queue
 from time import sleep
 from sys import argv
 import os
 
-os.system('clear' if os.name == 'posix' else 'cls')  
+os.system('clear' if os.name == 'posix' else 'cls')
 proxy_aktif = False
 admin_panelleri = []  # Bulunan admin panelleri için liste
 print("""
@@ -24,23 +24,23 @@ print("""
 
 ***** ❤️ This project was coded @archescyber ******
 
-Usage: arch.py [OPTIONS]
+  Usage: arch.py [OPTIONS]
 
-Options:
-  +site <website URL>
-•• Website to scan.
-  +proxy <protocol>://<proxyserverip:port>
-•• Use proxy server.
-  +t <seconds>
-•• Delay for scanning.
-  +w <custom/wordlist/path>
-•• Custom wordlist file for scanning.
+  Options:
+    +site <website URL>
+  •• Website to scan.
+    +proxy <protocol>://<proxyserverip:port>
+  •• Use proxy server.
+    +t <seconds>
+  •• Delay for scanning.
+    +w <custom/wordlist/path>
+  •• Custom wordlist file for scanning.
 
-Examples:
- arch.py +site http://example.com
- arch.py +proxy http://1.2.3.4:8080 +site http://example.com
- arch.py +site https://example.com +t 1
- arch.py +site https://example.com +w /custom/wordlist/list.txt
+  Examples:
+   arch.py +site http://example.com
+   arch.py +proxy http://1.2.3.4:8080 +site http://example.com
+   arch.py +site https://example.com +t 1
+   arch.py +site https://example.com +w /custom/wordlist/list.txt
 """)
 
 if len(argv) < 3 or '+site' not in argv:
