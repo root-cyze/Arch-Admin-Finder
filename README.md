@@ -30,7 +30,7 @@ git clone https://github.com/archescyber/Arch-Admin-Finder
 ```
 
 ```
-cd arch-admin-finder
+cd Arch-Admin-Finder
 ```
 2. Install the required libraries:
 ```
