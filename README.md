@@ -76,7 +76,13 @@ CSV: Easily viewable in spreadsheet software
 
 TXT: Human-readable log-style output
 ```
+# File Structure
 
+├── scanner.py   
+├── wordlist.txt       
+└── README.md              
+
+---
 # License
 
 MIT License
