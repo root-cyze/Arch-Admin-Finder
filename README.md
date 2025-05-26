@@ -1,6 +1,7 @@
 # Nea Scanner
 
-![IMG_20250526_063530](https://github.com/user-attachments/assets/f1f7979f-0af0-4f6a-ae77-f9c228be4a3b)
+![IMG_20250526_063530~2](https://github.com/user-attachments/assets/59d2d868-042a-432e-8a86-e4d62ef96b49)
+
 
 
 **Nea Scanner** is a high-performance, asynchronous web directory scanner built using modern Python technologies like `aiohttp` and `asyncio`. It efficiently discovers hidden directories and files on web servers with customizable wordlists.
