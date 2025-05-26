@@ -19,7 +19,7 @@
 ## Installation
 
 ```
-git clone https://github.com/root-cyze/nea-scanner.git
+git clone https://github.com/root-cyze/Nea-Scanner.git
 ```
 ```
 cd nea-scanner
