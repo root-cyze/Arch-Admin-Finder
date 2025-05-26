@@ -1,12 +1,12 @@
-# Arch Admin Finder
+# Nea Scanner
 
-- Arch Admin Finder is a Python-based tool designed to discover admin panels on specific websites. 
+- Nea Scanner is a Python-based tool designed to discover admin panels on specific websites. 
 
 - This tool scans a given web address, checking various paths to identify URLs that return a 200 status code.
 
 ## Vısual
 
-![Screenshot_2024-11-26-00-04-57-480_com termux-edit](https://github.com/user-attachments/assets/49367fd2-4e0e-42ff-ba09-a581fae4f1f8)
+![IMG_20250526_063530](https://github.com/user-attachments/assets/62fab163-957f-4e46-8fe9-8c6799753f38)
 
 
 ## Features
