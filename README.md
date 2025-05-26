@@ -29,10 +29,6 @@ pip install -r requirements.txt
 ```
 > Requirements: Python 3.7+, aiohttp, aiofiles
 
-
-
-Usage
-
 Run the scanner:
 ```
 python3 scanner.py
